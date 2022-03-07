@@ -1,21 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html class="dark">
 	<head>
-		<title>Classroomdesign</title>
+		<title>Mon projet Tailwind CSS</title>
 		<meta charset="UTF-8" />
 		<link href="styles.css" rel="stylesheet" />
 	</head>
 
-	<body class="container mx-auto">
+	<body>
 		<header>
-			<div class="text-blue-800 flex gap-6">
-				<p>Demandeur d'emploi en Île-de-France ? Profitez de places de formation gratuites.</p>
-				<a href="">EN SAVOIR PLUS</a>
+			<div class="flex justify-between p-3 bg-blue-500">
+				<h3 class="ml-10 text-Headers-bg">
+					Demandeur d'emploi en Île-de-France ? Profitez de places de
+					formation gratuites.
+				</h3>
+				<a href="" class="border-2 p-1 mr-10">EN SAVOIR PLUS</a>
 			</div>
-			<div class="text-blue-800 flex gap-6">
-				<h1>OPEN CLASSROOMS</h1>
-				<a href="">Formations</a>
+
+			<div class="flex gap-5 border-2 border-blue-700 p-3">
+				<a href="">OPENCLASSROOM</a>
+				<button	>Formations</button>
+				<a href="">Pour les entreprises</a>
+				<img src="img/recherche.jpeg" alt="" width="40" />
+				<a href="" class="border-2 pt-1 p-1 text-blue-700">SE CONNECTER</a>
 			</div>
 		</header>
+
+		<!-- SECTION -->
+		<section class="flex gap-11 bg-blue-500">
+			<div class="ml-20">
+				<img src="img/home_banner-5ed8a0400525d8dcbe81.png" alt="" />
+			</div>
+
+			<div class="mt-10 p-2">
+				<h1 class="text-4xl mb-5 text-white border-2 bg-blue-900">
+					Votre avenir <br />
+					commence ici
+				</h1>
+				<p class="mb-5 text-white">
+					Apprenez à apprendre. <br />
+					Découvrez les compétences de demain. <br />
+					Et prenez votre carrière en main.
+				</p>
+				<a href="" class="border-2 p-2 mt-10 hover:bg-red-400"
+					>EN SAVOIR PLUS</a
+				>
+			</div>
+		</section>
 	</body>
 </html>
