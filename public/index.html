@@ -6,45 +6,214 @@
 		<link href="styles.css" rel="stylesheet" />
 	</head>
 
-	<body>
+	<body class="max-w-1280">
 		<header>
-			<div class="flex justify-between p-3 bg-blue-500">
-				<h3 class="ml-10 text-Headers-bg">
+			<div class="flex justify-between items-center p-3 bg-blue-500">
+				<h3 class="gap-6 text-Headers-bg text-white">
 					Demandeur d'emploi en Île-de-France ? Profitez de places de
 					formation gratuites.
 				</h3>
-				<a href="" class="border-2 p-1 mr-10">EN SAVOIR PLUS</a>
+				<a
+					href=""
+					class="text-white font-bold hover:bg-blue-700 p-3 transition duration-300 rounded-md"
+					>EN SAVOIR PLUS</a
+				>
 			</div>
 
-			<div class="flex gap-5 border-2 border-blue-700 p-3">
-				<a href="">OPENCLASSROOM</a>
-				<button	>Formations</button>
-				<a href="">Pour les entreprises</a>
-				<img src="img/recherche.jpeg" alt="" width="40" />
-				<a href="" class="border-2 pt-1 p-1 text-blue-700">SE CONNECTER</a>
+			<div class="flex justify-between gap-5 p-3">
+				<div>
+					<a href="" class="ml-5 text-blue-700 text-xl font-bold"
+						>OPENCLASSROOM</a
+					>
+					<button
+						class="ml-7 font-Montserrat text-lg hover:text-blue-700"
+					>
+						Formations
+					</button>
+					<a href="" class="ml-5 border-l-2 p-2 text-lg"
+						>Pour les entreprises</a
+					>
+				</div>
+
+				<div class="flex">
+					<img
+						src="img/recherche.jpeg"
+						alt=""
+						width="40"
+						class="ml-20"
+					/>
+					<a
+						href=""
+						class="border-2 pt-1 p-2 text-blue-700 rounded-md border-blue-700 text-bold hover:bg-gray-200 transition duration-300 font-bold"
+						>SE CONNECTER</a
+					>
+				</div>
 			</div>
 		</header>
 
-		<!-- SECTION -->
+		<!-- SECTION 1-->
 		<section class="flex gap-11 bg-blue-500">
-			<div class="ml-20">
+			<div class="flex">
+				<span class="ml-20"></span>
 				<img src="img/home_banner-5ed8a0400525d8dcbe81.png" alt="" />
 			</div>
 
 			<div class="mt-10 p-2">
-				<h1 class="text-4xl mb-5 text-white border-2 bg-blue-900">
-					Votre avenir <br />
-					commence ici
+				<h1 class="text-5xl text-white mb-5 p-1">
+					<span class="border-2 bg-blue-900 border-none">
+						Votre avenir
+					</span>
+					<br />
+					<span class="border-2 bg-blue-900 pr-5 border-none"
+						>commence ici</span
+					>
 				</h1>
 				<p class="mb-5 text-white">
 					Apprenez à apprendre. <br />
 					Découvrez les compétences de demain. <br />
 					Et prenez votre carrière en main.
 				</p>
-				<a href="" class="border-2 p-2 mt-10 hover:bg-red-400"
+				<a
+					href=""
+					class="bg-white text-blue-700 text-bold border-2 border-blue-700 p-2 mt-10 rounded-md hover:bg-red-400 boder-red-400"
 					>EN SAVOIR PLUS</a
 				>
 			</div>
 		</section>
+
+		<!-- SECTION 2 -->
+		<section>
+			<div class="flex justify-center gap-20 mt-6">
+				<div>
+					<img src="img/diplome1.svg" alt="" />
+
+					<div class="text-center">
+						<h3
+						class="text-blue-900 text-2xl font-bold mt-3"
+					>
+						Diplômes accrédités
+						</h3>
+						<p>Le niveau de nos parcours certifiants  <br>
+							 est reconnu par l'État français</p>
+					</div>
+				</div>
+				
+
+				<div class="text-center">
+					<img src="img/diplome2.svg" alt="" />
+					<div>
+					<h3 class="text-blue-900 text-2xl font-bold mt-3">Mentorat</h3>
+				    <p>Chaque semaine, un expert du métier visé <br>
+						suit vos progrès</p>
+					</div>
+				</div>
+				<div class="text-center">
+					<img src="img/diplome3.svg" alt="" />
+					<h3 class="text-blue-900 text-2xl font-bold mt-3">
+						Embauché ou remboursé
+					</h3>
+					<p>Vous trouvez un emploi sous 6 mois ou nous <br>
+						 remboursons vos frais de scolarité*</p>
+				</div>
+			</div>
+		</section>
+
+		<!--   SECTION3   -->
+		<section class="border-gray-500 bg-gray-50 mt-20 flex gap-32">
+			<div class="ml-20">
+				<h1 class="font-bold border-2 border-blue-700 text-4xl text-white bg-blue-700 mt-10">Des formations innovantes</h1>
+				<p class="mt-2 font-sans">Devenez qui vous voulez être avec OpenClassrooms. Choisissez votre <br>
+					 carrière. Suivez une <a href="" class="underline hover:text-blue-500">formation constituée de projets</a> <br>
+					<a href="" class="underline hover:text-blue-500">professionnalisants</a>  et de séances individuelles avec un mentor dédié <br>
+					chaque semaine. Obtenez un diplôme reconnu par l'État. Enrichissez <br>
+					votre CV avec les <a href="" class="underline hover:text-blue-500">programmes en alternance</a>  proposés par <br>
+					OpenClassrooms et gagnez un salaire tout en suivant votre formation.</p>
+			</div>
+			<div>
+				<video src="video/Tutoriel Tailwind CSS.mp4" width="500" type="video/mp4"></video>
+			</div>
+		</section>
+
+		<!-- SECTION 4 -->
+		<section class=" mt-20	">
+			<h1 class="font-bold text-blue-900 font-sans text-3xl text-center">Nos étudiants témoignent</h1>
+			<div class="mt-10 ml-20	 flex justify-center gap-10">
+				<img src="img/pierre-eric.jpeg" alt="" width="400">
+					<span>
+						<p class="tex-lg text-blue-500">
+							EN une phrase, une formation OpenClassrooms, c'est du challenge et <br>
+							du contenu de qualité.Dans la Tech, ce n'est pas tant ce qu'on sait qui <br>
+							compte, c'est ce qu'on est capable d'apprendre. Chez OpenClassrooms, <br>
+							on apprend vraiment à pêcher plutôt qu'attedre les poisson tout <br>
+							cuit dans le bec chaque jour. C'est donc retour sur investissement <br>
+							vraiment intéressant!
+						</p>
+						<h3 class="text-blue-900 font-bold mt-2">Pierre-Eric <br>
+							Développeur web junior
+						</h3>
+						<div class="flex gap-3 mt-2 text-blue-500 font-bold font-mono hover:gb-blue-900">
+							<img src="img/logo-video.png" alt="" width="30">
+							<a href="video/Tutoriel Tailwind CSS.mp4">REGARDER LA VIDEO</a>
+
+							<div class="gap-6">
+								<span></span>
+							</div>
+						</div>	
+					</span>
+			</div>
+		</section>
+
+		<!-- SECTION 5 -->
+		<section class="mt-10 ml-10">
+			<div class="ml-20 flex gap-6">
+				<img src="img/appel.svg" alt="">
+				<div>
+					<h1 class="text-2xl font-bold font-sans mt-10">Nous sommes là pour vous aider</h1>
+					<p class="mt-6">Vous avez une question ? Notre équipe est là pour vous répondre du lundi 
+						au vendredi de 9h00 à 19h00, <br>
+					 heure en France métropolitaine.</p>
+					 <div class="flex gap-6 mt-6">
+						 <img src="img/mail.png" alt="" width="50">
+						 <a href="" class="hover:bg-gray-500 hover:border-2  transition duration-300 rounded-md p-3">NOUS ECRIRE</a>
+					 </div>
+				</div>
+				
+			</div>
+			<p class="mt-20">* Sous réserve des conditions énoncées dans les <a href="" class="underline hover:text-blue-500">Conditions Générales de Services</a></p>
+		</section>
+
+		<!-- FOOTER -->
+
+		<footer class=" border-t-2 mt-10 flex gap-20 justify-center">
+			<div class="mt-10">
+				<h4 class="font-bold">OPENCLASSROOMS</h4>
+				<a href="" class="hover:text-blue-600">Qui sommes-nous?</a> <br>
+				<a href="" class="hover:text-blue-600">Financement</a> <br>
+				<a href="" class="hover:text-blue-600">Expérience de formation</a> <br>
+				<a href="" class="hover:text-blue-600">Forum</a> <br>
+				<a href="" class="hover:text-blue-600">Blog</a> <br>
+				<a href="" class="hover:text-blue-600">Presse</a>
+			</div>
+
+			<div class="mt-10">
+				<h4 class="font-bold">OPPORTUNITES</h4>
+				<a href="" class="hover:text-blue-600">Nous rejoindre</a> <br>
+				<a href="" class="hover:text-blue-600">Devenir mentor</a> <br>
+				<a href="" class="hover:text-blue-600">Devenir coach carrière</a>
+			</div>
+
+			<div class="mt-10">
+				<h4 class="font-bold">POUR LES ENTREPRISES</h4>
+				<a href="" class="hover:text-blue-600">Formation, reconversion et alternance</a> <br>
+				<a href="" class="hover:text-blue-600">EN PLUS</a> <br>
+				<a href="" class="hover:text-blue-600">Boutique</a> <br>
+				<a href="" class="hover:text-blue-600">Mentions légales</a> <br>
+				<a href="" class="hover:text-blue-600">Conditions générales d'utilisation</a> <br>
+				<a href="" class="hover:text-blue-600"> Politique de protection des données <br> 
+					personnelles</a> <br>
+				<a href="" class="hover:text-blue-600">Cookies</a> <br>
+				<a href="" class="hover:text-blue-600">Accessibilité</a>
+			</div>	
+		</footer>
 	</body>
 </html>
